@@ -16,13 +16,11 @@ namespace HomeWork5
 
             if (inputNumber % 5 == 0)
             {
-                Console.WriteLine("has not remainder ");
-                Console.WriteLine($"{inputNumber} % 5 = {inputNumber % 5}");
+                Console.WriteLine("Yes");
             }
             else
             {
-                Console.WriteLine("has remainder");
-                Console.WriteLine($"{inputNumber} % 5 = {inputNumber % 5}");
+                Console.WriteLine("NO");
             }
 
             #endregion
